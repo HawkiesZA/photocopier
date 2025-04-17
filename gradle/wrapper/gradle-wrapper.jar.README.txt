@@ -1,0 +1,15 @@
+(This file must be manually downloaded. See below for instructions.)
+
+To complete the Gradle wrapper setup, you need to download the official `gradle-wrapper.jar` from Gradle's distribution:
+
+1. Download the file from:
+   https://services.gradle.org/distributions/gradle-8.5-bin.zip
+
+2. Unzip the archive and locate `gradle-wrapper.jar` under `gradle-8.5/bin/gradle/wrapper/gradle-wrapper.jar`.
+
+3. Place the `gradle-wrapper.jar` file in:
+   `gradle/wrapper/gradle-wrapper.jar` (relative to your project root)
+
+This file is required for the wrapper scripts to function.
+
+If you would like, I can provide you with the direct download link and step-by-step instructions. Once you have placed the file, you will be able to run `./gradlew build` with Gradle 8.5 and Java 21.
