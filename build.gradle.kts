@@ -38,6 +38,12 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg)
             packageName = "Photocopier"
             packageVersion = "1.0.0"
+            macOS {
+                iconFile.set(project.file("src/jvmMain/resources/icon.icns"))
+                bundleID = "za.hawkiesza.photocopier"
+                copyright = "Copyright © 2025 Gerrit Vermeulen"
+                dockName = "Photocopier"
+            }
         }
     }
 }
